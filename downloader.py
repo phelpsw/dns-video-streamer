@@ -1,3 +1,4 @@
+import argparse
 import base64
 import struct
 import time
@@ -6,7 +7,7 @@ import dns.resolver
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--host", help="Server containing file of interest",
-                    type=str, default='caramelsundae.williamslabs.com'))
+                    type=str, default='caramelsundae.williamslabs.com')
 parser.add_argument("--outfile", help="Output file",
                     type=str, default='out.mp4')
 args = parser.parse_args()
