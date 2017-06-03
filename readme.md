@@ -40,7 +40,10 @@ sudo chmod 644 /etc/bind/db.movies.zzyzxgazette.xyz
 sudo systemctl restart bind9.service
 ```
 
-
+#### Downloader
+```
+python downloader.py --host=movies.zzyzxgazette.xyz --outfile out.mp4
+```
 
 
 #### TODO:
